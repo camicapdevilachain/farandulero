@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> La farandulera - Si serás</title>
+
+    <!-- Boostrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Overrides propios -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<style> /* Acá solo van overrides locales */
+
+</style>
+<body>
+    <div class="container"> <!--Container Boostrap-->
+        <header class="row">
+            <!-- Titulo -->
+            <div class="container_titulo col-12 col-sm-12 col-md-9 col-lg-10 col-xl-10">
+                <a href="index.html">
+                    <h1 class="container_titulo--titulo">La farandulera</h1>
+                    <h2 class="container_titulo--subtitulo">La informacion en la que no queres confiar</h2>
+                </a>
+            </div>
+            <!-- Redes -->
+            <div class="container_redes col-12 col-sm-12 col-md-3 col-lg-2 col-xl-2">
+                <a href="https://badoo.com/es-ar/"> <img src="media/redes-facebook-icon.png" alt="facebook" class="container_redes--iconoRedes"></a>
+                <a href="https://tinder.com/?lang=es-AR"> <img src="media/redes-google-plus-icon.png" alt="google" class="container_redes--iconoRedes"></a>
+                <a href="https://www.secondlove.com"> <img src="media/redes-twitter-icon.png" alt="twitter" class="container_redes--iconoRedes"></a>
+                <a href="https://www.onlineseducer.com"> <img src="media/redes-whatsapp-icon.png" alt="whatsapp" class="container_redes--iconoRedes"></a>
+            </div>
+        </header>
+        <nav class="navbar navbar-expand-md navbar-dark sticky-top"> <!--Nombres de clases default boostrap, no aplica BEM-->
+            <button class="navbar-toggler ml-auto float-xs-right" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav col 12">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-toggle="modal" data-target="#preArgentina"><i class="material-icons">emoji_flags</i> Farandula Argentina</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-toggle="modal" data-target="#preDeportes"><i class="material-icons">sports</i> Deportistas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-toggle="modal" data-target="#preFarandula"><i class="material-icons">local_activity</i> Farándula Global</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="material-icons">monetization_on</i> Economia
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="dolar.html">Dolar Oficial</a>
+                            <a class="dropdown-item" href="dolar.html">Dolar Solidario</a>
+                            <a class="dropdown-item" href="dolar.html">Dolar Paralelo</a>
+                            <a class="dropdown-item" href="dolar.html">Dolar Cueva</a>
+                            <a class="dropdown-item" href="dolar.html">Dolar Caverna</a>
+                            <a class="dropdown-item" href="dolar.html">Dolar Covacha</a>
+                            <a class="dropdown-item" href="dolar.html">Dolar Ladrillo</a>
+                            <a class="dropdown-item" href="dolar.html">Dolar Futuro</a>
+                            <a class="dropdown-item" href="dolar.html">Dolar Turista</a>
+                            <a class="dropdown-item" href="dolar.html">Dolar Posible</a>
+                            <a class="dropdown-item" href="dolar.html">Dolar Imaginario</a>
+                            <a class="dropdown-item" href="dolar.html">Dolar Cuarentena</a>
+                            <a class="dropdown-item" href="dolar.html">Dolar Verdura</a>
+                            <a class="dropdown-item" href="dolar.html">Dolar Colchón</a>
+                            <a class="dropdown-item" href="dolar.html">Dolar Netflix</a>
+                            <a class="dropdown-item" href="dolar.html">Dolar Playstation</a>
+                        </div>
+                      </li>
+                    <li class="nav-item">
+                        
+                        <a class="nav-link" href="buchonearla.html"><i class="material-icons">campaign</i> Ventilarla</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <br>
+        <p class="cuerpo_pagina--tituloSeccion" style="text-align: center;">Te advertimos</p>
+        <div class="col 12" style="text-align: center;"> <!-- Grid Boostrap -->
+            <img src="https://aws.revistavanityfair.es/prod/designs/v1/assets/785x589/48268.jpg" class="foto" alt="">
+        </div>
+        <br>
+        <footer class="row col-12">
+            <fieldset class="col-12">
+                <legend>
+                    Desde desde nuestra central en miameeee con amor
+                </legend>
+                <form action="zulma.html">
+                    <button type="button submit" id="boton_footer" class="btn btn-info">No Toque Aquí</button>
+                </form>
+            </fieldset>
+        </footer>
+        <!-- Modals PopUp -->
+        <div class="modal fade shadow" id="preArgentina" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content modal_warning">
+                <div class="modal-header modal_warning--texto_header">
+                  <p class="modal-title" id="exampleModalLongTitle">Parece que cliqueo mal...</p>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                    <p class="modal_warning--texto_cuerpo">¿Esta completamente seguro que no quería ver la cotización del Dolar de los ultimos 34 segundos?</p>
+                </div>
+                <div class="modal-footer">
+                    <td style="width: 50%; align-content: center;">
+                        <form action="argentina.html">
+                            <input type="submit" value="Recién vi el precio" class="btn btn-success modal_warning--boton">
+                        </form>
+                    </td>
+                    <td style="width: 50%; align-content: center;">
+                        <form action="dolar.html">
+                            <input type="submit" value="Va siendo hora que lo revise" class="btn btn-warning modal_warning--boton">
+                        </form>
+                    </td>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="modal fade shadow" id="preDeportes" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content modal_warning">
+                <div class="modal-header modal_warning--texto_header">
+                  <p class="modal-title" id="exampleModalLongTitle">Parece que cliqueo mal...</p>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                    <p class="modal_warning--texto_cuerpo">¿Esta completamente seguro que no queria ver la cotización del Dolar de los ultimos 34 segundos?</p>
+                </div>
+                <div class="modal-footer">
+                    <td style="width: 50%; align-content: center;">
+                        <form action="deportes.html">
+                            <input type="submit" value="Recién vi el precio" class="btn btn-success modal_warning--boton">
+                        </form>
+                    </td>
+                    <td style="width: 50%; align-content: center;">
+                        <form action="dolar.html">
+                            <input type="submit" value="Va siendo hora que lo revise" class="btn btn-warning modal_warning--boton">
+                        </form>
+                    </td>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="modal fade" id="preFarandula" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content modal_warning">
+                <div class="modal-header modal_warning--texto_header">
+                  <h6 class="modal-title fielsetLegends" id="exampleModalLongTitle">Parece que cliqueo mal...</h6>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                    <p class="modal_warning--texto_cuerpo">¿Esta completamente seguro que no queria ver la cotización del Dolar de los ultimos 34 segundos?</p>
+                </div>
+                <div class="modal-footer">
+                    <td style="width: 50%; align-content: center;">
+                        <form action="farandula.html">
+                            <input type="submit" value="Recién vi el precio" class="btn btn-success modal_warning--boton">
+                        </form>
+                    </td>
+                    <td style="width: 50%; align-content: center;">
+                        <form action="dolar.html">
+                            <input type="submit" value="Va siendo hora que lo revise" class="btn btn-warning modal_warning--boton">
+                        </form>
+                    </td>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
